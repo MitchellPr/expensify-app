@@ -5,8 +5,10 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 process.env.NODE_ENV = process.env.NODE_ENV || 'development'
 
 if (process.env.NODE_ENV === 'test') {
+    console.log('test', process.env.NODE_ENV);
     require('dotenv').config({ path: '.env.test'})
 }else if (process.env.NODE_ENV === 'development') {
+    console.log('dev', process.env.NODE_ENV)
     require('dotenv').config({ path: '.env.development' })
 }
  

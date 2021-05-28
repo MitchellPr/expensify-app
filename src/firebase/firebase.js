@@ -19,8 +19,6 @@ import 'firebase/database';
 
 const database = firebase.database();
 
-database.ref().set('Mitch')
-
 export { firebase, database as default }
 
 
