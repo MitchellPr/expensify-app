@@ -20,6 +20,7 @@
     "@wojtekmaj/enzyme-adapter-react-17": "^0.6.1",
     "babel": "^6.23.0",
     "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-polyfill": "^6.26.0",
     "bable-loader": "^0.0.1-security",
     "css-loader": "^5.2.4",
     "express": "^4.17.1",

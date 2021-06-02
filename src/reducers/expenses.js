@@ -1,10 +1,11 @@
+import { ADD_EXPENSE } from '../constants/actionTypes'
 // Expenses Reducer
 
 const expensesReducerDefaultState = [];
 
 export default (state = expensesReducerDefaultState, action) => {
   switch (action.type) {
-    case 'ADD_EXPENSE':
+    case ADD_EXPENSE:
       return [
         ...state,
         action.expense

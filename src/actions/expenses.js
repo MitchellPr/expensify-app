@@ -1,10 +1,11 @@
 import uuid from 'uuid'
 import database from '../firebase/firebase'
+import { ADD_EXPENSE } from '../constants/actionTypes'
 
 
 // ADD_EXPENSE
 export const addExpense = (expense) => ({
-  type: 'ADD_EXPENSE',
+  type: ADD_EXPENSE,
   expense
 });
 
